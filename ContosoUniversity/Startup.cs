@@ -23,6 +23,7 @@ namespace ContosoUniversity
 
             services.AddDbContext<SchoolContext>(options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            //Edit&continue‚ğ‰Â”\‚É‚·‚éuAddRazorRuntimeCompilationv
             services.AddControllersWithViews().AddRazorRuntimeCompilation();
         }
 
